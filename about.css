@@ -1,0 +1,319 @@
+.navbar {
+	background-color: #033b0d !important;
+}
+
+body {
+	font-family: 'Forum', cursive !important;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	background: rgba(255, 255, 255, 1.0);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	z-index: 2;
+}
+.nav-link {
+	padding: 2rem 2rem;
+	margin: 0 2rem;
+	justify-content: center;
+}
+
+.jumbotron {
+	height: 40rem;
+	padding-top: 10rem;
+	margin-bottom: 0;
+}
+
+.display-4 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.jumbotron p {
+	padding-top: 2rem;
+}
+
+.topper {
+	background-color: black;
+	height: 20px;
+}
+
+.parallax.header {
+	height: 638px;
+}
+.parallax {
+	/* The image used */
+	background-image: url("https://images.unsplash.com/photo-1549194291-3feac1c96345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
+	min-width: 768px;
+	height: 300px;
+	/* Set a specific height */
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+h1 {
+	text-align: center;
+	margin-top: 2rem !important;
+	color: black;
+}
+
+#timeline {
+	padding-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+	header.masthead {
+		padding-top: 12rem;
+		padding-bottom: 12rem;
+	}
+	header.masthead h1 {
+		font-size: 3rem;
+	}
+}
+
+.showcase .showcase-text {
+	padding: 3rem !important;
+}
+
+.showcase .showcase-img {
+	min-height: 30rem !important;
+	background-size: cover !important;
+}
+
+@media (min-width: 768px) {
+	.showcase .showcase-text {
+		padding: 7rem;
+	}
+}
+
+/*Makes timeline work*/
+
+.row {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+:root {
+	--white: #ffffff;
+	--black: #000000;
+	--blue: #0288d1;
+	--gray: #ebebeb;
+	--box-shadow1: 0px 0px 18px 2px rgba(10, 55, 90, 0.15);
+}
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	color: #637280;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+:focus {
+	outline: 0px solid transparent !important;
+}
+.timeline {
+	padding: 50px 0;
+	position: relative;
+	z-index: 1 !important;
+}
+.timeline-nodes {
+	padding-bottom: 25px;
+	position: relative;
+}
+.timeline-nodes:nth-child(even) {
+	flex-direction: row-reverse;
+}
+.timeline h3,
+.timeline p {
+	padding: 5px 15px;
+}
+.timeline h3 {
+	font-weight: lighter;
+	background: black;
+}
+.timeline p,
+.timeline time {
+	color: black;
+}
+.timeline::before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 0;
+	border-left: 2px dashed black;
+	height: 100%;
+	z-index: 1;
+	transform: translateX(-50%);
+}
+.timeline-content {
+	border: 1px solid black;
+	position: relative;
+	border-radius: 0 0 10px 10px;
+	box-shadow: 0px 3px 25px 0px rgba(10, 55, 90, 0.2);
+}
+.timeline-nodes:nth-child(odd) h3,
+.timeline-nodes:nth-child(odd) p {
+	text-align: right;
+}
+.timeline-nodes:nth-child(odd) .timeline-date {
+	text-align: left;
+}
+
+.timeline-nodes:nth-child(even) .timeline-date {
+	text-align: right;
+}
+.timeline-nodes:nth-child(odd) .timeline-content::after {
+	content: "";
+	position: absolute;
+	top: 5%;
+	left: 100%;
+	width: 0;
+	border-left: 10px solid #033b0d;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.timeline-nodes:nth-child(even) .timeline-content::after {
+	content: "";
+	position: absolute;
+	top: 5%;
+	right: 100%;
+	width: 0;
+	border-right: 10px solid #033b0d;
+	border-top: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+}
+.timeline-image {
+	position: relative;
+	z-index: 100;
+}
+.timeline-image::before {
+	content: "";
+	width: 80px;
+	height: 80px;
+	border: 2px dashed #033b0d;
+	border-radius: 50%;
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	z-index: 1;
+}
+.timeline-image img {
+	position: relative;
+	z-index: 100;
+}
+/*small device style*/
+
+@media (max-width: 767px) {
+	.timeline-nodes:nth-child(odd) h3,
+	.timeline-nodes:nth-child(odd) p {
+		text-align: left;
+	}
+	.timeline-nodes:nth-child(even) {
+		flex-direction: row;
+	}
+	.timeline::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 4%;
+		width: 0;
+		border-left: 2px dashed var(--blue);
+		height: 100%;
+		z-index: 1;
+		transform: translateX(-50%);
+	}
+	.timeline h3 {
+		font-size: 1.7rem;
+	}
+	.timeline p {
+		font-size: 14px;
+	}
+	.timeline-image {
+		position: absolute;
+		left: 0%;
+		top: 60px;
+		/*transform: translateX(-50%;);*/
+	}
+	.timeline-nodes:nth-child(odd) .timeline-content::after {
+		content: "";
+		position: absolute;
+		top: 5%;
+		left: auto;
+		right: 100%;
+		width: 0;
+		border-left: 0;
+		border-right: 10px solid var(--blue);
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+	}
+	.timeline-nodes:nth-child(even) .timeline-content::after {
+		content: "";
+		position: absolute;
+		top: 5%;
+		right: 100%;
+		width: 0;
+		border-right: 10px solid var(--blue);
+		border-top: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+	}
+	.timeline-nodes:nth-child(even) .timeline-date {
+		text-align: left;
+	}
+	.timeline-image::before {
+		width: 65px;
+		height: 65px;
+	}
+}
+
+/*extra small device style */
+@media (max-width: 575px) {
+	.timeline::before {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 3%;
+	}
+	.timeline-image {
+		position: absolute;
+		left: -5%;
+	}
+	.timeline-image::before {
+		width: 60px;
+		height: 60px;
+	}
+}
+/* for the follow effect */
+.followMeBar {
+	background: white;
+	min-height: 20px;
+	padding: 10px 20px;
+	position: relative;
+	z-index: 4;
+	border-left: solid black 4px;
+	border-right: solid black 4px;
+	border-bottom: solid black 4px;
+}
+
+.followMeBar.fixed {
+	background: white;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 4;
+}
+
+.followMeBar.fixed.absolute {
+	background: white;
+	position: absolute;
+	z-index: 4;
+}
