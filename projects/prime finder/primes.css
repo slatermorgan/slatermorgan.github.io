@@ -1,0 +1,101 @@
+body {
+	background: #cdf4f4;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("imgs/wood.jpg");
+	-webkit-user-select: none; /* Chrome all / Safari all */
+	-moz-user-select: none; /* Firefox all */
+	-ms-user-select: none; /* IE 10+ */
+	user-select: none; /* Likely future */
+}
+h1 {
+	text-align: center;
+	background-color: #ffa64d;
+	color: white;
+	margin: 0 0;
+	height: 100px;
+	padding-top: 20px;
+}
+
+.circle {
+	width: 108px;
+	height: 108px;
+	background: #ffa64d;
+	padding-bottom: 16.5%;
+	float: left;
+	margin: 0.5%;
+	border-radius: 100%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+	text-align: center;
+	color: white;
+	padding: 0 0;
+}
+
+.circle p {
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 80%;
+	-webkit-transform: translateY(170%);
+	-ms-transform: translateY(170%);
+	transform: translateY(170%);
+	font-size: 2rem;
+}
+
+.hidden {
+	background: rgba(255, 0, 0, 0);
+	color: rgba(255, 0, 0, 0);
+}
+.gameover {
+	background: red;
+	color: red;
+}
+#container {
+	max-width: 600px;
+	max-height: 600px;
+	margin: 0 auto;
+}
+#message {
+	display: inline-block;
+	width: 22.5%;
+	font-size: 100%;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+#stripe {
+	background-color: white;
+	height: 60px;
+	text-align: center;
+	font-size: 200%;
+}
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: #ffa64d;
+	letter-spacing: 1px;
+	font-size: inherit;
+	outline: none;
+	-webkit-appearance: none;
+	transition: all 0.25s;
+	-webkit-transition: all 0.25s;
+	-moz-transition: all 0.25s;
+}
+
+button:hover {
+	color: white;
+	background-color: #ffa64d;
+}
+#container {
+	margin-top: 30px;
+}
+#header {
+	font-size: 500%;
+}

@@ -8,13 +8,13 @@ li.nav-item.middle {
 
 .parallax {
 	/* The image used */
-	background-image: url("https://images.unsplash.com/photo-1515705576963-95cad62945b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80");
+	background-image: url("imgs/telescope.JPG");
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border-top: solid #033b0d;
+	border-top: solid hsl(131, 90%, 12%);
 	border-bottom: solid #033b0d;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
@@ -41,6 +41,7 @@ header.masthead {
 	background-size: cover;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
+	height: 100vh;
 }
 
 header.masthead .overlay {

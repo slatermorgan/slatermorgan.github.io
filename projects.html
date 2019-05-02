@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="projects.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
@@ -18,7 +18,7 @@
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#"><i class="fas fa-keyboard"></i> <span id="logo">   Morgan Slater</span></a>
+    <a class="navbar-brand" href="index.html"><i class="fas fa-keyboard"></i> <span id="logo">   Morgan Slater</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -31,7 +31,7 @@
           <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item middle">
-          <a class="nav-link" href="projects">Projects</a>
+          <a class="nav-link" href="projects.html">Projects</a>
         </li>
         <li class="nav-item middle">
           <a class="nav-link" href="contact.html">Contact</a>
@@ -45,69 +45,260 @@
     </div>
   </nav>
 
-    <!-- Masthead -->
-    <header class="masthead text-white text-center parallax">
-      <div class="overlay"></div>
-      <div class="container">
+  <div class="parallax header"></div>
+
+  <div class="container">
+      <hr>
         <div class="row">
-          <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Enthusiastic, astrophysics graduate seeking a pathway into the IT industry </h1> 
-            <h2>Recently having fun developing web applications with HTML, CSS, Javascript and Node.js</h2>
+          <div class="col-sm">
+            <h2>Hike Helper</h2>
+            <img class="resize" src="imgs/projects/hikehelp.png" alt="">
+            <div class="container" style="padding: 10px 0">
+                <div class="row">
+                  <div class="col-sm">
+                      <a href=""><i class="fas fa-laptop-code"></i> Live Preview</a>
+                  </div>
+                  <div class="col-sm">
+                      <a href="https://github.com/slatermorgan/Hike-Help"><i class="fas fa-code-branch"></i> Source Code</a>
+                  </div>
+                </div>
+              </div>
+              <p>Brief description of project. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.  </p>
+              <h3>Technoliges Used</h3>
+              <div class="container">
+                  <div class="row">
+                    <div class="col-sm">
+                      <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap 3.3.7</li>
+                      </ul>
+                    </div>
+                    <div class="col-sm">
+                      <ul>
+                        <li>NodeJS</li>
+                        <li>Express</li>
+                        <li>passportJS</li>
+                        <li>MongoDB</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
           </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+          <div class="col-sm">
+            <h3>My Role</h3>
+            <p>A personal projects to create a community driven web app for hikers in Snowdonia and the surrounding area. The scope of this project was to allow users to upload their favourite walks in addition to a photo and brief description. In addition to this, users would ideally be able to comment on each others walks. </p>
+            <h3>Project Difficulties</h3>
+            <p>The biggest hurdle with this project was getting to grips with RESTful routing when dealing with nested routes ie. having comments inside of each show page. An additional challenge was keeping everything as neat and as modular as possible to keep the size of the project manageable. </p>
+            <h3>Solution</h3>
+            <p>Breaking the app.js file into modular parts and keeping the code clean and concise made the project manageable. Learning about typical API layout aided in this. </p>
+            <h3>Notable Features</h3>
+            <ul>
+              <li>Front-end built using bootstrap 3</li>
+              <li>User created walks with CRUD capabilities</li>
+              <li>Autherisation of comment ownership with CRUB capabilities</li>
+              <li>Authentication for account creationg and login</li>
+              <li>Admin profiles with moderation permissions</li>
+              <li>MongoDB back end with seed database.</li>
+            </ul>
           </div>
         </div>
+        <hr>
       </div>
-    </header>
-  
-  
-    
+
+      <div class="container">
+          <hr>
+            <div class="row">
+              <div class="col-sm">
+                <h2>Prime Finder</h2>
+                <img class="resize" src="imgs/projects/primefinder.png" alt="">
+                <div class="container" style="padding: 10px 0">
+                    <div class="row">
+                      <div class="col-sm">
+                          <a href="projects/prime finder/primes.html"><i class="fas fa-laptop-code"></i> Live Preview</a>
+                      </div>
+                      <div class="col-sm">
+                          <a href="https://github.com/slatermorgan/Prime-Finder"><i class="fas fa-code-branch"></i> Source Code</a>
+                      </div>
+                    </div>
+                  </div>
+                  <p>A fun game to test your mental maths. Click on the circles to remove the composite numbers. However be careful, clicking on a prime number will cause you to lose.</p>
+                  <h3>Technoliges Used</h3>
+                  <div class="container">
+                      <div class="row">
+                        <div class="col-sm">
+                          <ul>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap 4.3.1</li>
+                          </ul>
+                        </div>
+                        <div class="col-sm">
+                        </div>
+                      </div>
+                    </div>
+              </div>
+              <div class="col-sm">
+                <h3>My Role</h3>
+                <p>A personal project bringing together my passion for mathematics and my love for games. This gave me an opportunity to test my logic in Javascript in addition to interacting with the DOM. The method adopted for checking if a number was prime was the Sieve of Eratosthenes which I had covered briefly during my A-levels. </p>
+                <h3>Project Difficulties</h3>
+                <p>One of the biggest challenges was getting to grips with interacting with the DOM. In addition to this, initially creating the counter for how many composite numbers the user had successfully removed from the grid proved to be difficult. </p>
+                <h3>Solution</h3>
+                <p>Once getting to grips with the DOM API interfacing with the document became much easier. The composite number counter was overcame by learning about the behaviour and importance of scope within JavaScript.</p>
+                <h3>Notable Features</h3>
+                <ul>
+                  <li>Sieve of Eratosthenes prime checking</li>
+                  <li>Game Over message</li>
+                  <li>Composite number counter to track the players progress</li>
+                </ul>
+              </div>
+            </div>
+            <hr>
+          </div>
+
+
+
+          <div class="container">
+              <hr>
+                <div class="row">
+                  <div class="col-sm">
+                    <h2>Colour Game</h2>
+                    <img class="resize" src="imgs/projects/colorgame.png" alt="">
+                    <div class="container" style="padding: 10px 0">
+                        <div class="row">
+                          <div class="col-sm">
+                              <a href="projects/colorgame/colourgame.html"><i class="fas fa-laptop-code"></i> Live Preview</a>
+                          </div>
+                          <div class="col-sm">
+                              <a href="https://github.com/slatermorgan/Colour-Game/"><i class="fas fa-code-branch"></i> Source Code</a>
+                          </div>
+                        </div>
+                      </div>
+                      <p>Tired of using color pickers? This web game randomly generates 6 / 3 colours (depending on difficulty setting). These colours are then pushed to squares which the user can click on. The user then is given an RGB colour which corresponds to one of them. Once the correct colour is clicked on, a winning message is displayed.</p>
+                      <h3>Technoliges Used</h3>
+                      <div class="container">
+                          <div class="row">
+                            <div class="col-sm">
+                              <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap 4.3.1</li>
+                              </ul>
+                            </div>
+                            <div class="col-sm">
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                  <div class="col-sm">
+                    <h3>My Role</h3>
+                    <p>Another personal project involving interacting with the DOM using JavaScript. This had a slightly larger scope than Prime Finder as I wanted to include a difficulty setting, which could reduce/increase the number of colours randomly generated. </p>
+                    <h3>Project Difficulties</h3>
+                    <p>One of the biggest challenges was again getting to grips with interacting with the DOM. Another small challenge was building the difficulty modifier with the capacity to expand later on (ie. a super hard mode could be added later).</p>
+                    <h3>Solution</h3>
+                    <p>Again interfacing with the document became easier the longer I spent doing it. The difficulty modifier was built into the setup function by feeding it an argument, this means adding extra difficulty modes at a later date will be much easier.  </p>
+                    <h3>Notable Features</h3>
+                    <ul>
+                      <li>Visual feedback when clicking on colours</li>
+                      <li>Game Over message</li>
+                      <li>Two difficulty settings</li>
+                    </ul>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div class="container">
+                  <hr>
+                    <div class="row">
+                      <div class="col-sm">
+                        <h2>To-do List App</h2>
+                        <img class="resize" src="imgs/projects/todo.png" alt="">
+                        <div class="container" style="padding: 10px 0">
+                            <div class="row">
+                              <div class="col-sm">
+                                  <a href="projects/todo/index.html"><i class="fas fa-laptop-code"></i> Live Preview</a>
+                              </div>
+                              <div class="col-sm">
+                                  <a href="https://github.com/slatermorgan/To-Do-List-App"><i class="fas fa-code-branch"></i> Source Code</a>
+                              </div>
+                            </div>
+                          </div>
+                          <p>A simple online organisation app. Create, check-off and delete tasks.</p>
+                          <h3>Technoliges Used</h3>
+                          <div class="container">
+                              <div class="row">
+                                <div class="col-sm">
+                                  <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>Bootstrap 4.3.1</li>
+                                  </ul>
+                                </div>
+                                <div class="col-sm">
+                                  <ul>
+                                    <li>jQuery</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                      </div>
+                      <div class="col-sm">
+                        <h3>My Role</h3>
+                        <p>Another personal project attempting to create a simple online organiser. This main goal for this project was to get to grips with jQuery and seeing the difference to using DOM manipulation.</p>
+                        <h3>Notable Features</h3>
+                        <ul>
+                          <li>Visual feedback when checking off tasks</li>
+                          <li>Delete button hover effects</li>
+                          <li>Responsive layout using bootstrap</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <hr>
+                  </div>
+
+                  <div class="parallax"></div>
+
     <!-- Footer -->
     <footer class="footer bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
-            <ul class="list-inline mb-2">
-              <li class="list-inline-item">
-                <a href="#">About</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Contact</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-              <li class="list-inline-item">&sdot;</li>
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-            </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2019. All Rights Reserved.</p>
-          </div>
-          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-facebook fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item mr-3">
-                <a href="#">
-                  <i class="fab fa-twitter-square fa-2x fa-fw"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                  <i class="fab fa-instagram fa-2x fa-fw"></i>
-                </a>
-              </li>
-            </ul>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+              <ul class="list-inline mb-2">
+                <li class="list-inline-item">
+                  <a href="index.html">Landing Page</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="about.html">About</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="projects.html">Projects</a>
+                </li>
+                <li class="list-inline-item">&sdot;</li>
+                <li class="list-inline-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <p class="text-muted small mb-4 mb-lg-0">&copy; Morgan Slater. All Rights Reserved.</p>
+            </div>
+            <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item">
+                  <a href="https://github.com/slatermorgan">
+                    <i class="fab fa-github fa-2x fa-fw"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-  </footer>
+    </footer>
 
 
    <!-- Optional JavaScript -->

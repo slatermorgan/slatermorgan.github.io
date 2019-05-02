@@ -1,0 +1,73 @@
+body {
+	font-family: 'Forum', cursive !important;
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+	background: rgba(255, 255, 255, 1.0);
+	background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	background: -moz-linear-gradient(top, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 1.0), rgba(217, 217, 217, 1.0));
+	z-index: 2;
+}
+
+.resize {
+	width: 400px;
+	height: auto;
+	-moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+li.nav-item.middle {
+	padding: 0em 5vw;
+}
+
+.jumbotron {
+	height: 40rem;
+	padding-top: 10rem;
+	margin-bottom: 0;
+}
+
+.display-4 {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.jumbotron p {
+	padding-top: 2rem;
+}
+
+.topper {
+	background-color: black;
+	height: 20px;
+}
+
+.parallax.header {
+	height: 638px;
+}
+.parallax {
+	/* The image used */
+	background-image: url("imgs/view.JPG");
+	min-width: 768px;
+	height: 300px;
+	/* Set a specific height */
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+h1 {
+	text-align: center;
+	margin-top: 2rem !important;
+	color: black;
+}
+h2 {
+	font-size: 3.5rem !important;
+}
+hr {
+	padding: 25px !important;
+}
+
+footer.footer {
+	padding-top: 4rem;
+	padding-bottom: 4rem;
+}
