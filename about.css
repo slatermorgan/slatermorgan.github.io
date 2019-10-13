@@ -37,13 +37,13 @@ li.nav-item.middle {
 }
 
 .parallax.header {
-	height: 638px;
+	height: 200px;
 }
 .parallax {
 	/* The image used */
 	background-image: url("https://images.unsplash.com/photo-1549194291-3feac1c96345?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80");
 	min-width: 768px;
-	height: 300px;
+	height: 200px;
 	/* Set a specific height */
 	/* Create the parallax scrolling effect */
 	background-attachment: fixed;
