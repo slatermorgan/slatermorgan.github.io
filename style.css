@@ -6,6 +6,10 @@ li.nav-item.middle {
 	padding: 0em 5vw;
 }
 
+#nav-contact {
+	cursor: pointer; 
+}
+
 .parallax {
 	/* The image used */
 	background-image: url("imgs/telescope.JPG");

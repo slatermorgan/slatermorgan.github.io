@@ -32,6 +32,10 @@ li.nav-item.middle {
 	height: 20px;
 }
 
+#nav-contact {
+	cursor: pointer; 
+}
+
 .parallax.header {
 	height: 638px;
 }

@@ -8,6 +8,10 @@ body {
 	z-index: 2;
 }
 
+#nav-contact {
+	cursor: pointer; 
+}
+
 .resize {
 	width: 400px;
 	height: auto;
