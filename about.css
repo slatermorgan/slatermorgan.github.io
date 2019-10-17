@@ -180,6 +180,8 @@ body {
 	padding: 50px 0;
 	position: relative;
 	z-index: 1 !important;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 .timeline-nodes {
 	padding-bottom: 25px;
@@ -220,7 +222,7 @@ body {
 }
 .timeline-nodes:nth-child(odd) h3,
 .timeline-nodes:nth-child(odd) p {
-	text-align: right;
+	text-align: none;
 }
 .timeline-nodes:nth-child(odd) .timeline-date {
 	text-align: left;
@@ -276,7 +278,7 @@ body {
 @media (max-width: 767px) {
 	.timeline-nodes:nth-child(odd) h3,
 	.timeline-nodes:nth-child(odd) p {
-		text-align: left;
+		text-align: none;
 	}
 	.timeline-nodes:nth-child(even) {
 		flex-direction: row;
@@ -328,7 +330,7 @@ body {
 		border-bottom: 10px solid transparent;
 	}
 	.timeline-nodes:nth-child(even) .timeline-date {
-		text-align: left;
+		text-align: none;
 	}
 	.timeline-image::before {
 		width: 65px;
